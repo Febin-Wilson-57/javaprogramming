@@ -12,4 +12,9 @@ public abstract class AbstractClass implements Test{
 
     public AbstractClass() {
     }
+
+    @Override
+    public void m2() {
+        System.out.println("mmmm");
+    }
 }
